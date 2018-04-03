@@ -23,13 +23,16 @@
 define('DB_NAME', 'aigf2bdf_store');
 
 /** MySQL database username */
-define('DB_USER', 'aigf2bdf');
+// define('DB_USER', 'aigf2bdf');
+define('DB_USER', 'user');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Pcdeptrai89@#');
+// define('DB_PASSWORD', 'Pcdeptrai89@#');
+define('DB_PASSWORD', 'user');
 
 /** MySQL hostname */
-define('DB_HOST', '112.78.2.195');
+// define('DB_HOST', '112.78.2.195');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');

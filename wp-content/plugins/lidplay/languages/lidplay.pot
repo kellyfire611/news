@@ -1,0 +1,109 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-09 11:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: lidplay.php:48 lidplay.php:48 lidplay.php:103
+msgid "LidPlay Settings"
+msgstr ""
+
+#: lidplay.php:55
+msgid "Settings"
+msgstr ""
+
+#: lidplay.php:110 lidplay.php:162
+msgid "Default resolution"
+msgstr ""
+
+#: lidplay.php:124
+msgid "Use providers"
+msgstr ""
+
+#: lidplay.php:133
+msgid "Use collection"
+msgstr ""
+
+#: lidplay.php:135
+msgid "To allow the script to create a collection videos from your site ?"
+msgstr ""
+
+#: lidplay.php:137
+msgid "In the absence of video, will get a random video from site collection."
+msgstr ""
+
+#: lidplay.php:138
+msgid "Enabling this option can significantly reduce the failure rate."
+msgstr ""
+
+#: lidplay.php:144
+msgid "Other"
+msgstr ""
+
+#: lidplay.php:146
+msgid "Use own domain for player"
+msgstr ""
+
+#: lidplay.php:151
+msgid "Extra params"
+msgstr ""
+
+#: lidplay.php:154
+msgid "Subtitles (do not forget about CORS)"
+msgstr ""
+
+#: lidplay.php:158 lidplay.php:159
+msgid "Subtitles label"
+msgstr ""
+
+#: lidplay.php:166
+msgid "Start position (seconds)"
+msgstr ""
+
+#: lidplay.php:170
+msgid "Autoplay"
+msgstr ""
+
+#: lidplay.php:178
+msgid "Feedback"
+msgstr ""
+
+#: lidplay.php:179
+msgid "If you have any questions or suggestions please contact us on"
+msgstr ""
+
+#: lidplay.php:182
+msgid "Save Changes"
+msgstr ""
+
+#. Name of the plugin
+msgid "LidPlay Player"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Playing video from VK.com, Mail.ru, OK.ru, Vimeo, RedTube, Google Drive, "
+"Mp4upload.com, Facebook.com in one player."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://lidplay.net/en/#install"
+msgstr ""
+
+#. Author of the plugin
+msgid "LidPlay"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://lidplay.net"
+msgstr ""
