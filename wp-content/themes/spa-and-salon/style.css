@@ -2224,11 +2224,12 @@ object {
 
 	background: #b16aab;
 
-	height: 229px;
+	/*height: 229px;*/
 
 	padding-top: 24px;
+	padding-bottom: 24px;
 
-	margin-bottom: 174px;
+	/*margin-bottom: 174px;*/
 
 }
 
@@ -2274,7 +2275,7 @@ object {
 
 	position: relative;
 
-	max-height: 140px;
+	/*max-height: 140px;*/
 
 	overflow: auto;
 
@@ -2310,6 +2311,11 @@ object {
 
 .promotional-block .col .text-holder p{margin: 0;}
 
+.promotional-block .col .extra-text-holder ul {
+	margin: 0;
+	padding: 0 0 0 20px;
+	font-size: 0.8em;
+}
 
 
 .promotional-block .col .img-holder .icon-holder{
@@ -2446,7 +2452,7 @@ object {
 
 	padding-left: 10px;
 
-	padding-right: 10px;
+	/*padding-right: 10px;*/
 
 	margin: 0 0 49px;
 
@@ -2494,6 +2500,12 @@ object {
 
 	color: #7fa200;
 
+}
+
+.services .col .extra-text-holder ul {
+	margin: 0;
+	padding: 0 0 0 20px;
+	font-size: 0.8em;
 }
 
 

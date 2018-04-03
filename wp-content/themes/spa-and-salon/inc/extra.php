@@ -763,7 +763,6 @@ function spa_and_salon_featured_cb(){
             $spa_and_salon_favicon = array_filter( $spa_and_salon_favicon );
 
             
-
             $featured_qry = new WP_Query( array( 
 
                 'post_type'             => 'post',
@@ -837,10 +836,18 @@ function spa_and_salon_featured_cb(){
                         <?php the_excerpt(); ?>
 
                           
-
+                          <div class="extra-text-holder">
+                            <?php
+                            //var_dump(get_the_category(get_the_ID())[0]->cat_ID); die;
+                            echo list_posts_by_category_shortcode(['cat' => get_the_category(get_the_ID())[0]->cat_ID,
+                                'post_id' => get_the_ID()]);
+                            ?>
+                        </div> 
                     </div>
 
-              </div> 
+              </div>
+
+              
 
               <?php
 
