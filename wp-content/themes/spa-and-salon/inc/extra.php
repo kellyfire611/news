@@ -661,10 +661,12 @@ if( ! function_exists( 'spa_and_salon_banner_cb' ) ):
                 ?>
                 <div class="container banner-section-custom">
 
+                    <?php echo do_shortcode('[metaslider id="440"]'); ?>
+
                 <?php
                 if( has_post_thumbnail() ){
 
-                    the_post_thumbnail( 'spa-and-salon-banner' );
+                    //the_post_thumbnail( 'spa-and-salon-banner' );
 
                     ?>
                     </div>
